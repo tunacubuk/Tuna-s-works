@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom,#68EACC 0%,#497BE8 100%);
+}
+
+.card{
+    max-width: 350px;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+
+}
+
+.card .title{
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.card .content{
+    margin-top:20px;
+
+}
+
+.card label.box{
+    background: #ddd;
+    display: flex;
+    margin-top: 12px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.25 ease;
+}
+
+.card label.box:hover{
+background: #D5BBF7;
+
+}
+
+.card label.box .course{
+    display: flex;
+    width: 100%;
+   align-items: center;
+   
+}
+
+.card label.box .circle{
+    height: 22px;
+    width: 22px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: inline-block;
+    border:5px solid transparent;
+    box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.2);
+   
+}
